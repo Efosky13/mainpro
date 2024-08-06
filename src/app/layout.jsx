@@ -1,10 +1,10 @@
-import {Pacifico} from "next/font/google";
+import {Kanit} from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const paci= Pacifico({ subsets: ["latin"],
-weight: "400" });
+const paci= Kanit({ subsets: ["latin"],
+weight:[ "200","300","400","500", "600", "700"] });
 
 export const metadata = {
   title: "EFOSA'S PROJECT",
