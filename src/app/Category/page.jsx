@@ -3,7 +3,7 @@ import { projects } from '../array/array'
 import ProjectCard from '../components/ProjectCard'
 import Link from 'next/link'
 
-export default function category() {
+export default function page() {
   const filteredProjects = projects.filter(proj => proj.title.toLowerCase())
   return (
     <div className='grid grid-cols-3'>
