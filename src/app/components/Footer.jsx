@@ -4,9 +4,11 @@ import { AiFillCodepenSquare } from "react-icons/ai";
 import PageLinks from "./PageLinks";
 import { Dancing_Script } from "next/font/google";
 import { GoArrowRight } from "react-icons/go";
+import Link from "next/link"
 
 
 export default function Footer() {
+   
   return (
     <footer className="h-[60vh] bg-slate-900 text-white flex gap-20 mt-6 pt-10 ">
 
@@ -25,13 +27,13 @@ export default function Footer() {
   <div >
      <h2 className="ml-5 text-2xl ">Categories</h2>
      <div className="m-4 ">
-        <Catlinks title="Sport" bg="bg-pink-700 " />
+        <Catlinks title="Sport" bg="bg-pink-700 " link='' />
         <Catlinks title="Entertainment" bg="bg-yellow-700"/><br/>
         <Catlinks title="Home and Decor" bg="bg-blue-700"/>
         <Catlinks title="Education" bg="bg-red-700"/><br/>
         <Catlinks title="Travel" bg="bg-yellow-700"/>
         <Catlinks title="Technology" bg="bg-blue-700"/><br/>
-        <Catlinks title="Fashion" bg="bg-red-700"/>
+        <Catlinks title="Fashion" bg="bg-red-700" link='Fashion'/>
      </div>
 
   </div>
@@ -56,7 +58,7 @@ export default function Footer() {
            <ol>
            <PageLinks title='Style Guide' link='Category' />
            <PageLinks title='Instructions' link='/'/>
-           <PageLinks title='Licenses' link='licence'/>
+           <PageLinks title='Licenses' link='Licence'/>
            <PageLinks title='Changelog' link='changelog'/>
            <PageLinks title='login' link='/'/>
            <PageLinks title='Link In Bio' link='/'/>

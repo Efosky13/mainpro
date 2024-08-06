@@ -30,7 +30,7 @@ export default function about() {
     <div className=' m-32 mt-0 '>
          <div className=' text-4xl mt-20 '> ABOUT US </div>
            
-           <div className='text-[20px] mt-4  flex  lg:flex sm:block  '>
+           <div className='text-[15px] mt-4  flex  lg:flex sm:block  '>
            Welcome to our About page!
 
               At Efosky, we are passionate about giving you the best ideas on gadgets.<br/> Our team is dedicated to providing products,<br/> information and services that benefit or solve a specific problem for your customers.<br/>
@@ -55,7 +55,7 @@ export default function about() {
             </div>
 
 
-               <div className=' flex gap-10 -mt-8'>
+               <div className=' flex gap-10 -mt-10'>
 
                 <div className='border-4  pt-1 pr-4 pl-3  text-7xl  rounded-md   block  border-red-500'>2k+<br/> <span className='text-lg '>total blogs </span> </div>
                 <div className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-green-500'>1k+  <br/> <span className='text-lg '>followers </span></div>

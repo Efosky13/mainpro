@@ -21,7 +21,7 @@
         </div>
 
         <div className='col-start-2 col-span-2'>
-          <button className='absolute bg-blue-400 p-2 text-3xl'><Link href='./'>Luxury</Link></button>
+          <button className='absolute bg-blue-400 p-2 text-3xl'><Link href='./Luxury'>Luxury</Link></button>
           <Image className='container overflow-hidden' src="/media/fashion.jpg" width={400} height={400} alt="SHOPPING" />
         </div>
 

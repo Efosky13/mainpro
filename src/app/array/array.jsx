@@ -134,4 +134,4 @@ export const projects = [
     },
   ];
 
-    console.log(projects)
+console.log(projects)
