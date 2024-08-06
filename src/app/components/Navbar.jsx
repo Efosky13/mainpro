@@ -42,6 +42,9 @@ export default function Navbar() {
         <li className="hover:text-blue-900 hover:underline">
           <Link href="/about">About us</Link>
         </li>
+        <li className="hover:text-blue-900 hover:underline">
+          <Link href="/category">blog</Link>
+        </li>
       </ul>
       <div className="flex gap-3 pt-3 -ml-20">
         <SocialIcons />
