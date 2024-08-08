@@ -57,9 +57,12 @@ export default function about() {
 
                <div className=' flex gap-10 mt-10'>
 
-                <div className='border-4  pt-1 pr-4 pl-3  text-7xl  rounded-md   block  border-red-500'>2k+<br/> <span className='text-lg '>total blogs </span> </div>
-                <div className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-green-500'>1k+  <br/> <span className='text-lg '>followers </span></div>
-                <div  className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-blue-400'>300+  <br/> <span className='text-lg '> workers </span></div>
+                <div className='border-4  pt-1 pr-4 pl-3  text-7xl  rounded-md   block  border-red-500'>500+<br/> <span className='text-lg '>Total blogs </span> </div>
+                <div className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-green-500'>100k+  <br/> <span className='text-lg '>Followers </span></div>
+                <div  className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-blue-400'>1k+  <br/> <span className='text-lg '> W
+                  
+                  
+                  orkers </span></div>
         
                 </div> <br/>
 
@@ -72,7 +75,7 @@ export default function about() {
                           </span></div> <br/>
 
 
-                              <div className='flex gap-10 m-40 mt-1 text-2xl '>
+                              <div className='flex gap-10 ml-52  mt-1 text-xl text '>
                                  <div className='border-1 bg-red-500 p-3'> . STANDARD QUALITY</div>
                                  <div className='border-1 bg-green-500 p-3'> . RELIABLE INFORMATION</div>
                                  <div className='border-1 bg-blue-700 p-3'> . LASTEST TECHNOLOGY</div>

@@ -32,10 +32,25 @@ export default function Navbar() {
             Pages <FiChevronDown className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
           </li>
           {isOpen && (
-            <div className="absolute  top-full left-0 bg-white text-black shadow-lg mt-2 rounded-md" onMouseLeave={toggleDrop}>
-              <li className="hover:bg-gray-200">
-                <Link href="/category" className="block px-4 py-2">Blog</Link>
-              </li>
+            <div className="absolute  p-10  top-full left-0 bg-slate-200 text-black shadow-lg mt-2 rounded-md" onMouseLeave={toggleDrop}>
+              <ul className= "text-sm flex items-start gap-8">
+              <Link  href='Blog' className=" hover:bg-gray-300">Blog</Link>
+                <Link  href='Home 2' className=" hover:bg-gray-300">Home2 </Link>  <br/>       
+                
+                
+              </ul>
+                 <ul className="text-sm flex items-start gap-8">
+                 <Link href='Pricing' className=" hover:bg-gray-300">Pricing  </Link>                     
+                 <Link  href='author' className=" hover:bg-gray-300">Author </Link>
+                 </ul>
+
+                <ul className="text-sm  felx gap-8 ">
+                   
+                <Link  href='Subscribe' className=" hover:bg-gray-300">Subscribe</Link> <br/>
+                <Link href='about' className=" hover:bg-gray-300" >About us</Link><br/>
+                <Link href='privacy-policy' className=" hover:bg-gray-300" >Privacy policy </Link>     
+                </ul>
+
             </div>
           )}
         </div>
