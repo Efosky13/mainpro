@@ -11,10 +11,10 @@
 
  export default function page() {
    return (
-     <div className=' mx-40'>
-       <div className='grid grid-cols- grid-rows-[(2,_300px)] my-20 gap-6 relative'>
+     <div className='mx-40'>
+       <div className='grid grid-rows-[(2,_300px)] my-20 gap-6 relative'>
 
-        <div className=' row-span-2 col-start-1 col-span-1'>
+        <div className='row-span-2 col-start-1 col-span-1'>
         <button className='absolute bg-red-300 p-2 text-3xl'><Link href='./Fashion'>Fashion</Link></button>
           <Image className=' overflow-hidden container' src="/media/racing.jpg" width={400} height={400} alt=" AUDI" />
 
@@ -39,24 +39,24 @@
 
         <div className='grid grid-cols-3 grid-rows-1 gap-x-8 mt-10 items-center'>
 
-          <div className='flex  overflow-hidden hover:scale-105 hover:shadow-2xl transition-transform  hover:animate-pulse '>
+          <div className='flex  overflow-hidden hover:scale-105 hover:shadow-2xl transition-transform   '>
           <button className='absolute p-2 bg-slate-300 text-2xl'><Link href='./'>Cars</Link></button>
-          <div className='bg-slate-300  absolute text-start translate-y-64 translate-x-10 p-1 text-[15px]'>
+          <div className='bg-slate-300  absolute text-start translate-y-52 translate-x-10 p-1 text-[15px]'>
             unveiling the secrets behind exquisite dishes<br/> and delectable delights</div>
           <Image className='overflow-hidden  ' src="/media/cars.jpg" width='470' height='400' alt='logo'/>
           
           </div>
 
-          <div className=' overflow-hidden hover:scale-105 hover:shadow-2xl transition-transform  hover:animate-pulse '>
+          <div className=' overflow-hidden hover:scale-105 hover:shadow-2xl transition-transform   '>
           <button className='absolute p-2 bg-red-400 text-2xl'><Link href='./'>Gadgets</Link></button>
-          <div className='bg-red-400  absolute text-start translate-y-60 translate-x-10 p-1 text-[15px]'>
+          <div className='bg-red-400  absolute text-start translate-y-52 translate-x-10 p-1 text-[12px]'>
             Bringing To Life Every Imagination In the Tech World To reality<br/> and delectable delights</div>
           <Image className='overflow-hidden ' src="/media/gadgets.jpg" width='600' height='400' alt='logo'/>
           </div>
 
-          <div className='overflow-hidden bg-black hover:scale-105 hover:shadow-2xl transition-transform  hover:animate-pulse'>
+          <div className='overflow-hidden bg-black hover:scale-105 hover:shadow-2xl transition-transform  '>
           <button className='absolute p-2 bg-purple-400 text-2xl'><Link href='./'>CODM</Link></button>
-          <div className='bg-purple-400  absolute text-start translate-y-64 translate-x-10 p-1 text-[15px]'>
+          <div className='bg-purple-400  absolute text-start translate-y-60 translate-x-10 p-1 text-[15px]'>
             The Battlefield At Your Arms Reach<br/> and delectable delights</div>
           <Image className='overflow-hidden ' src="/media/game.jpg" width='420' height='300' alt='logo'/>
           </div>
@@ -65,13 +65,13 @@
 
 
 <br/>
-       <div className=' mt-28'>
+       <div className=' mt-28 mb-32'>
         <div className='grid grid-cols-2 grid-rows-1 gap-x-6'>
 
           <div>
                 <div className='  hover:brightness-75 hover:shadow-2xl transition-transform   '>
                    <button className='absolute p-2 bg-slate-300 text-2xl'><Link href='./'>Gadgets</Link></button>
-                       <div className='bg-white  absolute text-start translate-y-[430px] translate-x-10 p-1 text-[22px] '>
+                       <div className='bg-white  absolute text-start translate-y-[350px] translate-x-10 p-1 text-[15px] '>
                          Bringing To Life Every Imagination In the Tech World To reality<br/> and delectable delights</div>
                        <Image className='hover:cursor-zoom-out ' src="/media/camoru.jpg" width='800' height='400' alt="logo" />
 
@@ -81,7 +81,7 @@
                     <div>
                             <div className=' hover:brightness-75  hover:shadow-2xl transition-transform   '>
                                 <button className='absolute p-2 bg-slate-200 text-2xl'><Link href='./'>Gadgets</Link></button>
-                                   <div className='bg-slate-200  absolute text-start translate-y-[430px]  translate-x-10 p-1 text-[22px]'>
+                                   <div className='bg-slate-200  absolute text-start translate-y-[350px]  translate-x-10 p-1 text-[15px]'>
                                       Bringing To Life Every Imagination In the Tech World To reality<br/> and delectable delights</div>
                                    <Image src="/media/mac-leran.jpg" width='800' height='400' alt="logo" />
                             </div>

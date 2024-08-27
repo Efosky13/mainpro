@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function SignUp() {
   return (
-    <div className="border border-gray-300 bg-slate-600 rounded-lg p-16 text-center mx-auto mt-20 max-w-md">
+    <div className="border border-gray-300 container bg-slate-600 rounded-lg p-16 text-center mx-auto mt-20 max-w-md">
       <div>
         <input
           type="text"

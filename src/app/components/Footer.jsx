@@ -26,8 +26,8 @@ export default function Footer() {
 
   <div >
      <h2 className="ml-5 text-2xl ">Categories</h2>
-     <div className="m-4 ">
-        <Catlinks title="Sport" bg="bg-pink-700 " link='' />
+     <div className="m-2">
+        <Catlinks title="Sport" bg="bg-pink-700 "/>
         <Catlinks title="Entertainment" bg="bg-yellow-700"/><br/>
         <Catlinks title="Home and Decor" bg="bg-blue-700"/>
         <Catlinks title="Education" bg="bg-red-700"/><br/>
@@ -41,7 +41,7 @@ export default function Footer() {
    <div className="captalize"> 
       <h2 className="text-2xl "> Pages </h2>
 
-      <div className="flex items-start  gap-10 mt-3 ">
+      <div className=" flex   gap-10 mt-3 ">
          <ol>
    
             <PageLinks title='Home' link='home' />

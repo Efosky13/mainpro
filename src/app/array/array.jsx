@@ -1,10 +1,13 @@
+import Link from "next/link";
+
 export const projects = [
     {
       id: 1,
+  
       title: "Responsive Portfolio Website",
-      category: "HTML/CSS",
-      author: "John Doe",
-      image: "/media/tailwind.jpg",
+      category: "APPLE",
+      author: "Amenaghawon efosa",
+      image: "/media/modelling.jpg",
       description: [
         "A portfolio website showcasing projects using HTML and CSS with media queries for responsiveness.",
         "This website features a clean and modern design, optimized for various screen sizes and devices.",
@@ -16,9 +19,9 @@ export const projects = [
     {
       id: 2,
       title: "Interactive React Dashboard",
-      category: "React",
-      author: "Jane Smith",
-      image: "/media/racing.jpg",
+      category: "SAMSUNG",
+      author: "Madu gerald",
+      image: "/media/racing.jpg "  ,
       description: [
         "A dynamic dashboard built with React.js featuring interactive charts, data visualization, and state management.",
         "The dashboard allows users to view and analyze data in real-time, with customizable widgets and drag-and-drop functionality.",
@@ -30,8 +33,8 @@ export const projects = [
     {
       id: 3,
       title: "JavaScript Todo List App",
-      category: "JavaScript",
-      author: "Michael Johnson",
+      category: "TECNO",
+      author: "Onwalu gabriel",
       image: "/media/fashion.jpg",
       description: [
         "A simple todo list application using vanilla JavaScript for adding, editing, and deleting tasks.",
@@ -45,7 +48,8 @@ export const projects = [
       id: 4,
       title: "TailwindCSS Starter Template",
       category: "TailwindCSS",
-      author: "Emily White",
+      author: "Okagu micheal",
+      image: "/media/modelling.jpg" ,
       description: [
         "A starter template utilizing TailwindCSS utility classes for rapid UI development and customization.",
         "This template includes pre-designed components such as buttons, cards, navigation bars, and forms, all styled with TailwindCSS.",
@@ -58,7 +62,8 @@ export const projects = [
       id: 5,
       title: "React Native Mobile App",
       category: "React",
-      author: "Alex Turner",
+      author: "Oyosoro usuika",
+      image: "/media/modelling.jpg" ,
       description: [
         "A cross-platform mobile application developed with React Native for iOS and Android platforms.",
         "The app provides a native-like experience on both platforms, with access to device features such as camera, location, and push notifications.",
@@ -69,9 +74,11 @@ export const projects = [
     },
     {
       id: 6,
+
       title: "CSS Grid Layout Showcase",
       category: "CSS",
-      author: "Sophia Lee",
+      author: "Ijomah lawerence",
+      image: "/media/modelling.jpg" ,
       description: [
         "An interactive webpage demonstrating the power and flexibility of CSS Grid layout for modern web design.",
         "This webpage showcases various layout patterns and techniques using CSS Grid, including responsive grid layouts, masonry grids, and nested grids.",
@@ -84,7 +91,8 @@ export const projects = [
       id: 7,
       title: "JavaScript Calculator",
       category: "JavaScript",
-      author: "David Brown",
+      author: " Nzeh david",
+      image: "/media/modelling.jpg" ,
       description: [
         "A simple calculator application built with JavaScript for performing basic arithmetic operations.",
         "The calculator supports addition, subtraction, multiplication, and division operations, with a user-friendly interface.",
@@ -97,7 +105,8 @@ export const projects = [
       id: 8,
       title: "React Authentication System",
       category: "React",
-      author: "Emma Clark",
+      author: "Onyema stephen",
+      image: "/media/modelling.jpg" ,
       description: [
         "An authentication system implemented with React.js for user registration, login, and logout functionalities.",
         "The system provides secure authentication mechanisms such as JWT tokens and password hashing.",
@@ -110,7 +119,8 @@ export const projects = [
       id: 9,
       title: "HTML Email Template",
       category: "HTML/CSS",
-      author: "Ryan Taylor",
+      author: "Ajayi Abisola",
+      image: "/media/modelling.jpg" ,
       description: [
         "A responsive email template crafted with HTML and CSS optimized for various email clients and devices.",
         "This email template follows best practices for HTML email development, including inline CSS styles, table-based layouts, and fallbacks for unsupported email clients.",
@@ -119,19 +129,7 @@ export const projects = [
         "It also includes features such as dynamic content insertion, A/B testing support, and email analytics integration, enabling marketers to optimize their email marketing strategies for maximum effectiveness."
       ]
     },
-    {
-      id: 10,
-      title: "Blog Website with TailwindCSS",
-      category: "TailwindCSS",
-      author: "Olivia Martinez",
-      description: [
-        "A blog website designed and styled using TailwindCSS framework for modern and sleek UI.",
-        "This website features a minimalist design with focus on readability and aesthetics.",
-        "It includes features such as article pagination, category filters, and responsive layout for optimal viewing experience on all devices.",
-        "The blog website is built with performance and SEO in mind, with lazy loading images, optimized asset delivery, and schema.org markup.",
-        "It also includes features such as social media sharing buttons, comments section, and subscription forms, enhancing user engagement and community interaction."
-      ]
-    },
+    
   ];
 
 console.log(projects)

@@ -59,10 +59,7 @@ export default function about() {
 
                 <div className='border-4  pt-1 pr-4 pl-3  text-7xl  rounded-md   block  border-red-500'>500+<br/> <span className='text-lg '>Total blogs </span> </div>
                 <div className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-green-500'>100k+  <br/> <span className='text-lg '>Followers </span></div>
-                <div  className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-blue-400'>1k+  <br/> <span className='text-lg '> W
-                  
-                  
-                  orkers </span></div>
+                <div  className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-blue-400'>1k+  <br/> <span className='text-lg '> Workers </span></div>
         
                 </div> <br/>
 
