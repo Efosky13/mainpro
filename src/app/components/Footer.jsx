@@ -10,7 +10,7 @@ import Link from "next/link"
 export default function Footer() {
    
   return (
-    <footer className="h-[60vh] bg-slate-900 text-white flex gap-20 mt-6 pt-10 ">
+    <footer className="h-[60vh] bg-slate-800 text-white flex gap-20 mt-6 pt-10 ">
 
     <div className=" capitalize ml-20">
     
