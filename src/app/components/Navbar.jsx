@@ -106,7 +106,7 @@ export default function Navbar() {
                   <ol>
                     <Link href="/home" className="block hover:underline">Home</Link>
                     <Link href="/home-2" className="block hover:underline">Home 2</Link>
-                    <Link href="/blog" className="block hover:underline">blog</Link>
+                    <Link href="/blog" className="block hover:underline">blog\[id]</Link>
                     <Link href="/author" className="block hover:underline">Author</Link>
                     <Link href="/privacy-policy" className="flex hover:underline">Privacy-<span>Policy</span></Link>
                     <Link href="/about-us" className="block hover:underline">About Us</Link>
