@@ -77,7 +77,7 @@ export default function Footer() {
 
          <div className=" inline-block ">
             <button className=" text-2xl mb-3"> Subscribe for more</button> <br/>
-            <button className="border-2 bg-white p-3 w-60 text-black  text-start flex hover:bg-slate-400 ">
+            <button className="border-2 bg-white p-3 w-60 text-black  text-start flex hover:bg-slate-200 ">
              
                   <div className="flex ">
                   <form id="wf-form-Footer-Subscribe-Form" name="wf-form-Footer-Subscribe-Form" data-name="Footer Subscribe Form" method="get" data-wf-page-id="65798215fefd34b33dd44aa0" data-wf-element-id="f186cf30-17a5-6ed6-37c8-6b48ecf59b23" aria-label="Footer Subscribe Form">

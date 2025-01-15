@@ -23,7 +23,9 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-slate-400 text-black p-4 flex flex-col md:flex-row text-3xl gap-x-48 capitalize mt-2">
+    <nav className="bg-slate-400 text-black p-4 flex flex-col md:flex-row text-3xl gap-x-48
+    
+    capitalize mt-2">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <AiFillCodepenSquare className="font-bold text-5xl" />
@@ -36,7 +38,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="hidden md:flex w-full justify-between items-center">
+      <div className="hidden md:flex w-full justify-between items-center ml-16">
         <ul className="flex items-center gap-x-5">
           <li className="hover:text-blue-900 hover:underline">
             <Link href="/home">Home</Link>
@@ -46,12 +48,12 @@ export default function Navbar() {
               Pages <FiChevronDown className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
             </li>
             {isOpen && (
-              <div className="absolute bg-slate-400 text-black z-50 shadow-lg mt-2 rounded" onMouseLeave={toggleDrop}>
+              <div className="absolute bg-slate-200 text-black z-50 shadow-lg mt-2 rounded" onMouseLeave={toggleDrop}>
                 <div className="text-[20px] flex p-4 gap-x-14 leading-[40px]">
                   <ol>
                     <Link href="/home" className="block hover:underline">Home</Link>
                     <Link href="/home-2" className="block hover:underline">Home 2</Link>
-                    <Link href="/blog" className="block hover:underline">Blog</Link>
+                    <Link href="/category" className="block hover:underline">Blog</Link>
                     <Link href="/author" className="block hover:underline">Author</Link>
                     <Link href="/privacy-policy" className="flex hover:underline">Privacy-<span>Policy</span></Link>
                     <Link href="/about-us" className="block hover:underline">About Us</Link>
@@ -65,7 +67,8 @@ export default function Navbar() {
                     <Link href="/changelog" className="block hover:underline">Changelog</Link>
                     <Link href="/pricing" className="block hover:underline">Pricing</Link>
                     <Link href="/link-in-bio" className="block hover:underline">Link In Bio</Link>
-                    <Link href="/password-protected" className="block hover:underline">Password Protected</Link>
+                    <Link href="/password-protected" className="block hover:underline">Password
+                    <span>Protected</span></Link>
                     <Link href="/error-404" className="block hover:underline">Error 404</Link>
                   </ol>
                 </div>
@@ -75,9 +78,7 @@ export default function Navbar() {
           <li className="hover:text-blue-900 hover:underline">
             <Link href="/about">About Us</Link>
           </li>
-          <li className="hover:text-blue-900 hover:underline">
-            <Link href="/category">Blog</Link>
-          </li>
+          
         </ul>
         <div className="flex gap-3 pt-3">
           <SocialIcons />
@@ -93,7 +94,7 @@ export default function Navbar() {
           transition={{ duration: 0.3 }}
           className="md:hidden block w-full px-2 pt-2 pb-3 bg-slate-400 text-black"
         >
-          <Link href="/home" className="block py-1 hover:underline">Home</Link>
+          <Link href="/home" className="block py-1 hover:underline">Home</Link>N
           <div className="relative">
             <div className="flex justify-between py-1 cursor-pointer" onClick={toggleDropdown}>
               <span>Pages</span>

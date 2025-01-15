@@ -7,7 +7,7 @@ export const projects = [
       title: "Responsive Portfolio Website",
       category: "APPLE",
       author: "Amenaghawon efosa",
-      image: "/media/modelling.jpg",
+      image: "/media/gadgets.jpg",
       description: [
         "A portfolio website showcasing projects using HTML and CSS with media queries for responsiveness.",
         "This website features a clean and modern design, optimized for various screen sizes and devices.",
@@ -49,7 +49,7 @@ export const projects = [
       title: "TailwindCSS Starter Template",
       category: "TailwindCSS",
       author: "Okagu micheal",
-      image: "/media/modelling.jpg" ,
+      image: "/media/mac-leran.jpg" ,
       description: [
         "A starter template utilizing TailwindCSS utility classes for rapid UI development and customization.",
         "This template includes pre-designed components such as buttons, cards, navigation bars, and forms, all styled with TailwindCSS.",
